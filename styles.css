@@ -1,0 +1,245 @@
+#sous_titre{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+hr{
+    width:100px; 
+    height: 3px;
+    margin: auto;
+    color: white;
+}
+
+
+
+/*------------Nav bar------------ */
+header{
+    opacity: 100%;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 45%;
+}
+
+header li{
+    float: left;
+    color: white;
+
+}
+
+header li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header li a:hover{
+    background-color: #111;
+}
+
+
+
+
+
+.sidenav {
+    width: 90px;
+    position: fixed;
+    right : 20px;
+    z-index: 1;
+    top: 500px;
+    right: 10px;
+    
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
+
+
+/*------------Transition page------------ */
+
+#page_transition{
+    height: 50px;
+
+}
+/*------------Profil------------ */
+
+
+#page_profil{
+   /* background: linear-gradient(rgb(190, 19, 241) , #ad0d70d0);  */
+   background : url(images/pont_europe.jpg) center 0 no-repeat fixed; 
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+
+
+/*------------Portfolio------------ */
+
+
+#page_portfolio{
+    /* background: linear-gradient(#ad0d70d0 , #2f82a8  ); */ 
+    background : url(images/Gdansk_house.jpg) center 0 no-repeat fixed; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#portfoliobackground{
+     background: black;
+    opacity: 25%;
+    margin-top: 10x;
+    width: 90px;
+    height: 135px;
+    border-radius: 25px;
+    position: fixed;
+    right : 20px;
+    z-index: 1;
+    top: 500px;
+    right: 10px;
+    
+    overflow-x: hidden;
+    padding: 8px 0;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template: 200px / auto auto auto;
+    grid-gap: 150px;
+    padding: 10px;
+    padding-left: 100px;
+  }
+
+
+
+
+  
+
+
+
+/*------------Skills------------ */
+
+#page_skills{
+
+    /* background: linear-gradient(#2f82a8, #04BDE5 ); */
+    background : url(images/Gdansk.jpg) center 0 no-repeat fixed; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.CV{
+    display: flex;
+    justify-content: center;
+
+}
+
+#page_skills img{
+    padding-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+#page_skills li{
+    list-style-type: none;
+}
+
+
+
+
+/*------------Contact------------ */
+
+#page_contact{
+    /* background: linear-gradient( #04BDE5 , #09923C  ); */
+
+    background : url(images/sea.jpg) center 0 no-repeat fixed; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+h1 {
+    margin-top: 0;
+    font-weight: 500;
+    }
+ 
+   
+    
+
+    .form-inner {
+    padding: 40px;
+    position: relative;
+    width: 50%;
+    border-radius: 30px;
+    background: #fff;
+    }
+    .form-inner input,
+    .form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #d0dfe8;
+    }
+    .form-inner textarea {
+    resize: none;
+    }
+    button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 4px solid #3e4f24;
+    background: #5a7233; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+    button:hover {
+    background: #3e4f24;
+    } 
+    @media (min-width: 568px) {
+    form {
+    width: 60%;
+    }
+    }
+
